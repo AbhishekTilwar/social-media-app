@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Post = require("../models/Post");
 const paginate = require("../util/paginate");
 const cooldown = new Set();
-
+//Adding comment
 const createComment = async (req, res) => {
   try {
     const postId = req.params.id;
